@@ -1,0 +1,668 @@
+@font-face {
+    font-family: cocogoose;
+    src: url(fonts/Cocogoose-font.otf);
+  }
+  
+  html,
+  body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .date {
+    padding-bottom: 10%;
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.1rem;
+  }
+  
+  .menu-content,
+  .top-section,
+  .cancel,
+  .logo-DT a {
+    display: none;
+  }
+  
+  .top-section {
+    background-color: #3e3e3e;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 112%;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 1rem;
+    cursor: pointer;
+    left: 1rem;
+  }
+  
+  .cancel {
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .cancel p {
+    font-size: 3.2rem;
+    position: absolute;
+    margin: 0;
+    top: 1.3rem;
+    left: 1.3rem;
+    color: black;
+    z-index: 100;
+  }
+  
+  .logo-DT a {
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu-list {
+    width: 100vw;
+    display: none;
+    height: 100vh;
+    background-color: rgba(234, 234, 234, 0.9);
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    border-right: 4px outset #ec5242;
+    border-bottom: 2px outset #ec5242;
+  }
+  
+  .open {
+    height: 100vh;
+  }
+  
+  .items {
+    padding: 0;
+    margin-top: 8rem;
+  }
+  
+  .items li {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+  }
+  
+  .home a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+  }
+  
+  .company {
+    display: none;
+  }
+  
+  .company a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .my-logo a {
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .links a:hover {
+    color: #ec5242;
+    background-color: #f7f7f8;
+  }
+  
+  .home a:hover {
+    color: #ec5242;
+    border-bottom: 1px solid #ec5242;
+    background-color: #f7f7f8;
+    font-size: 1.2rem;
+    padding-inline: 11%;
+    padding-block: 5%;
+  }
+  
+  .fa-bars {
+    font-size: 2rem;
+    color: #272a31;
+  }
+  
+  .section-one {
+    background-image: url(img/main2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .section-one-container {
+    width: 92.5%;
+    padding-top: 7rem;
+    margin-inline: auto;
+    min-height: 326.85px;
+    height: auto;
+  }
+  
+  .intro {
+    margin-top: 5%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ec5242;
+  }
+  
+  .heading {
+    font-family: "cocogoose", sans-serif;
+    font-size: 3rem;
+    color: #ec5242;
+    margin: 0;
+  }
+  
+  .paragraph1 {
+    padding: 3%;
+    background-color: #f7f7f8;
+    text-align: center;
+    border: 3px solid white;
+    margin-top: 5%;
+  }
+  
+  h3 {
+    font-family: "cocogoose", sans-serif;
+    font-size: 1.84rem;
+    font-weight: 900;
+    color: #272a31;
+  }
+  
+  .venue {
+    font-size: 1.12rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: -5%;
+  }
+  
+  .section-two {
+    background-image: url(images/repeat-bg.png);
+    background-repeat: repeat;
+    background-position: center;
+  }
+  
+  .program {
+    width: 95%;
+    margin-inline: auto;
+    margin-top: 10%;
+  }
+  
+  .plane {
+    width: auto;
+    height: 45px;
+    margin-left: 13%;
+  }
+  
+  .heading2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0%;
+  }
+  
+  hr {
+    width: 10%;
+    margin-inline: auto;
+    border: none;
+    height: 3px;
+    background: #ec5242;
+  }
+  
+  .stacks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #393c43b3;
+    margin-block: 2.5%;
+    color: white;
+  }
+  
+  .stacks img {
+    height: 20%;
+    width: 10%;
+    margin-left: 4%;
+  }
+  
+  .stacks h2 {
+    font-size: 1.2rem;
+    margin-left: 3%;
+    align-items: center;
+    width: 40%;
+    color: #ec5242;
+    text-align: left;
+    align-self: center;
+  }
+  
+  .stacks p {
+    font-size: 0.9rem;
+    margin-left: 5%;
+  }
+  
+  .buttons {
+    width: 50%;
+    margin-inline: auto;
+    height: 70px;
+    margin-block: 5%;
+    padding-block: 7%;
+  }
+  
+  .register-btn {
+    width: 100%;
+    height: 50px;
+    background-color: #ec5242;
+    border-radius: 4px;
+    border-color: transparent;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #fff;
+    color: #ec5242;
+    border-color: #ec5242;
+  }
+  
+  .desktop-container-link {
+    display: none;
+  }
+  
+  .section-speakers-heading {
+    text-align: center;
+  }
+  
+  .featured-speakers {
+    width: 92.5%;
+    margin: auto;
+  }
+  
+  .speaker-section {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 12%;
+  }
+  
+  .speaker-image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .speaker-image {
+    width: 128px;
+    height: 128px;
+  }
+  
+  .speaker-details {
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .speaker-name {
+    margin-block: 0;
+    margin-right: auto;
+  }
+  
+  .speaker-designation {
+    margin-block: 0;
+    font-size: 0.95rem;
+    color: #ec5242;
+    text-align: left;
+  }
+  
+  #dots {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .speaker-history {
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 5%;
+    text-align: left;
+  }
+  
+  .partners-section {
+    background-color: #3f444f;
+  }
+  
+  .partners-heading {
+    text-align: center;
+    color: #fff;
+    padding-top: 10%;
+  }
+  
+  .partners-list img {
+    filter:
+      invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
+      brightness(102%) contrast(105%);
+  }
+  
+  .partners-flex {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .partner-list {
+    width: 100%;
+  }
+  
+  .partner-image {
+    width: 125px;
+    height: 40px;
+  }
+  
+  footer {
+    min-height: 5rem;
+  }
+  
+  .f-styling {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .copy-right {
+    font-size: 1rem;
+    margin: 20px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    p {
+      line-height: 1.3rem;
+    }
+  
+    hr {
+      width: 5%;
+    }
+  
+    .top-section {
+      display: block;
+      position: relative;
+    }
+  
+    .bar-container {
+      width: 85%;
+      margin: auto;
+    }
+  
+    .bars {
+      display: flex;
+      list-style: none;
+      justify-content: flex-end;
+      align-items: center;
+      margin-block: 0;
+      padding-left: 0;
+    }
+  
+    .bars li {
+      color: white;
+      font-size: 0.7rem;
+      padding-inline: 0.8%;
+      cursor: pointer;
+    }
+  
+    header {
+      background-color: #fff;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      position: unset;
+    }
+  
+    .logo-DT a {
+      position: unset;
+      display: block;
+      font-size: 2rem;
+      text-decoration: none;
+      color: #ec5242;
+    }
+  
+    .logo-DT {
+      cursor: pointer;
+      width: 40%;
+    }
+  
+    .home a {
+      display: none;
+    }
+  
+    .links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      margin-right: 2rem;
+    }
+  
+    .company a {
+      text-decoration: none;
+      border: 2px solid #ec5242;
+      border-radius: 4px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #ec5242;
+      letter-spacing: 2px;
+      padding-inline: 0.2rem;
+      padding-block: 0.2rem;
+      white-space: nowrap;
+    }
+  
+    .logo-DT a:hover {
+      color: #ec5242;
+      font-size: 2.2rem;
+    }
+  
+    .menu-list {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: unset;
+      border: none;
+      position: unset;
+      background-color: #fff;
+      width: 164%;
+      margin-right: 13%;
+    }
+  
+    .items {
+      margin-block: 0;
+    }
+  
+    .items li {
+      display: inline-block;
+      padding: 0;
+    }
+  
+    .company {
+      display: block;
+      margin-top: 4px;
+    }
+  
+    .web-image img {
+      display: none;
+    }
+  
+    .links a:hover {
+      color: #ec5242;
+      background-color: #f7f7f8;
+    }
+  
+    .links {
+      flex-grow: 1;
+    }
+  
+    .company a:hover {
+      border-color: black;
+    }
+  
+    .section-one {
+      background-position: center;
+    }
+  
+    .section-one-container {
+      width: 83%;
+      padding-top: 7rem;
+      min-height: 685px;
+    }
+  
+    .heading {
+      width: 60%;
+      font-size: 3.4rem;
+    }
+  
+    .paragraph1 {
+      width: 57.5%;
+      text-align: left;
+      padding-inline: 1rem;
+      padding-block: 0.75rem;
+      margin-top: 2%;
+    }
+  
+    .heading2 {
+      padding-top: 2%;
+      margin-top: 0;
+    }
+  
+    .program {
+      display: -ms-grid;
+      display: grid;
+      grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+      width: 85%;
+      margin-inline: auto;
+      margin-top: 54px;
+    }
+  
+    .stacks {
+      flex-direction: column;
+      justify-content: space-between;
+      margin-inline: 2%;
+    }
+  
+    .stacks img {
+      transform: scale(0.3);
+      width: 60%;
+      height: unset;
+    }
+  
+    .stacks h2 {
+      width: 95%;
+      margin: 0;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  
+    .stacks p {
+      text-align: center;
+      width: 95%;
+      margin: 0;
+      margin-top: 3%;
+      margin-bottom: 9%;
+      font-size: 0.9rem;
+    }
+  
+    .register-btn {
+      display: block;
+      margin-bottom: 15px;
+    }
+  
+    .button-container {
+      width: 30%;
+      padding-block: 2%;
+    }
+  
+    .program-link {
+      color: white;
+      margin-block: 2rem;
+    }
+  
+    .speaker-section {
+      margin-inline: 2.5%;
+      width: 95%;
+    }
+  
+    .section-speakers-heading {
+      text-align: center;
+    }
+  
+    .speaker-image {
+      width: auto;
+      height: auto;
+      margin-block: 0;
+    }
+  
+    .speaker-history {
+      margin: 0;
+      width: 95%;
+    }
+  
+    .featured-speakers {
+      width: 85%;
+      display: grid;
+      grid-template-columns: 0.5fr 0.5fr;
+    }
+  
+    .partners-heading {
+      padding-top: 3%;
+      margin-bottom: 1%;
+    }
+  
+    .partners-flex {
+      margin-top: 4%;
+      width: 75%;
+    }
+  
+    .partners-list {
+      margin-bottom: 3%;
+    }
+  
+    .partners-image {
+      mix-blend-mode: exclusion;
+    }
+  
+    .f-styling {
+      justify-content: space-evenly;
+    }
+  }
