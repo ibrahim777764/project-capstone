@@ -147,7 +147,8 @@
   }
   
   .section-one {
-    background-image: url(img/main2.png);
+    height: 800px;
+    background-image: url(img/first-section.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,7 +166,7 @@
     margin-top: 5%;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #ffffff;
+    color: #272A31
   }
   
   .heading {
@@ -177,9 +178,9 @@
   
   .paragraph1 {
     padding: 3%;
-    background-color: #f7f7f8;
+   
     text-align: center;
-    border: 3px solid white;
+    border: 3px solid #272A31;
     margin-top: 5%;
   }
   
@@ -198,9 +199,10 @@
   }
   
   .section-two {
-    background-image: url(images/repeat-bg.png);
+    background-image: url(img/new.jpg);
     background-repeat: repeat;
     background-position: center;
+  
   }
   
   .program {
@@ -379,8 +381,8 @@
   }
   
   .partner-image {
-    width: 125px;
-    height: 40px;
+    width: 105px;
+    height: 100px;
   }
   
   footer {
