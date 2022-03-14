@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ibrahim777764/project-capstone#readme",
   "devDependencies": {
+    "@hint/connector-local": "^3.2.16",
     "hint": "^6.1.10"
   }
 }
