@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ibrahim777764/project-capstone/issues"
   },
-  "homepage": "https://github.com/ibrahim777764/project-capstone#readme"
+  "homepage": "https://github.com/ibrahim777764/project-capstone#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
 }
