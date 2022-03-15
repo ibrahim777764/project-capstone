@@ -147,7 +147,7 @@
   }
   
   .section-one {
-    height: 800px;
+    height: 600px;
     background-image: url(img/first-section.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -186,22 +186,24 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+  
   .heading {
     font-family: "cocogoose", sans-serif;
     font-size: 3rem;
     background-image: url("img/bg-text.jpg");
     background-repeat: no-repeat;
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
   }
   
   .paragraph1 {
     padding: 3%;
-   
     text-align: center;
     border: 3px solid #272A31;
     margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-family: "cocogoose", sans-serif;
   }
   
   h3 {
