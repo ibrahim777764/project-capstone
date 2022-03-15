@@ -7,48 +7,48 @@ const data = [
     pic: './img/1.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Yochai Benkler',
-    designation: ' Pilot with over 37years flying experience',
-    history: 'He is an experienced pilot , entrepreneur, Burning Circle airshow sponsor , flight instructor an Burning Circle Flight Academy.',
+    designation: 'Credited with creating the worlds first purpose-built motor car in 1886',
+    history: 'n 1871, at the age of twenty-seven, Karl Benz joined August Ritter in launching the Iron Foundry and Mechanical Workshop in Mannheim, later renamed Factory for Machines for Sheet-metal Working',
   },
   {
     id: 2,
     pic: './img/2.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Kilnam Chor',
-    designation: 'Pilot with over 30years flying experience',
-    history: 'He is an experienced pilot , entrepreneur, Burning Circle airshow sponsor , flight instructor an Burning Circle Flight Academy.',
+    designation: 'Motor car pioneer, entrepreneur and industrial visionary',
+    history: 'In 1891, Ford became an engineer with the Edison Illuminating Company of Detroit. After his promotion to Chief Engineer in 1893, he had enough time and money to devote attention to his experiments on gasoline engines..',
   },
   {
     id: 3,
     pic: './img/4.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'SohYeong Noh',
-    designation: 'Korean webdeveloper and entrepreneur for 20 yeas in Tech',
-    history: 'She is a webdeveloper, computer engineer, Burning Circle airshow sponsor.',
+    designation: 'The innovative packaging of the Mini',
+    history: 'Issigonis was appointed a Commander of the Order of the British Empire in the 1964 Birthday Honours[10] and Knight Bachelor in the 1969 Birthday Honours.[11] On 22 July 1969, he was knighted by Elizabeth II during an investiture ceremony at Buckingham Palace.[12].',
   },
   {
     id: 4,
     pic: './img/5.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Julia Leda',
-    designation: 'Southafrican Air news Magazine Author and Editor with 30years experience',
-    history: 'She is a magazine editor and author and she will publish all activities that will be held at the event in her magazine',
+    designation: 'SEngine innovator with Coventry Climax, Lotus and Jaguar',
+    history: 'His career then took a change in direction and he moved into journalism becoming Technical Editor of The Autocar magazine in 1955 but while there he also worked on the design of the Ford based twin-cam engine for Lotus.[1]',
   },
   {
     id: 5,
     pic: './img/3.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Stephanie',
-    designation: 'Southafrican Air news Magazine Author and Editor with 20years experience',
-    history: 'She is a magazine editor and author and she will publish all activities that will be held at the event in her magazine.',
+    designation: 'The diesel engine',
+    history: 'The first successful Diesel engine Motor 250/400 was officially tested in 1897 and is now on display at the German Technical Museum in Munich..',
   },
   {
     id: 6,
     pic: './img/6.png',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Reagan Storch',
-    designation: 'Zambian born experienced photographer and Graphic Designer with 15 years experience',
-    history: 'He is a photographer, graphic designer, Burning cirle airshow sponsor and the founder of International studios.',
+    designation: 'Credited with creating the first useful four stroke engine',
+    history: 'Otto was aware of the concept of compressed fuel charge and tried to make an engine using this principle in 1861. It ran for just a few minutes before breaking. Ottos brother gave up on the concept, resulting in Otto looking for help elsewhere.[2][3].',
   },
 ];
 
@@ -102,4 +102,3 @@ data.forEach((speakerPara) => {
 const loadSpeakers = () => speakersContainer.appendChild(speakerContainer);
 
 window.onload(loadSpeakers());
-

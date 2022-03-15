@@ -219,11 +219,11 @@
   }
   
   .events .event:nth-child(1) {
-    background-image: url(./img/car2.jpg);
+    background-image: url(./img/car3.jpg);
   }
   
   .events .event:nth-child(2) {
-    background-image: url(./img/car3.jpg);
+    background-image: url(./img/carshow.jpg);
     background-color: #ec5242;
   }
   
@@ -371,7 +371,7 @@
     margin: auto;
   }
   
-  .copy-right {
+  .RIGHTS-Reserved {
     font-size: 1rem;
     margin: 25px;
     color: #000;
@@ -545,12 +545,6 @@
     .open-heading {
       width: 50%;
       font-size: 3.2rem;
-      font-family: "cocogoose", sans-serif;
-   
-    background-image: url("img/bg-text.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     }
   
     .first-section-para {
@@ -641,7 +635,7 @@
       justify-content: space-evenly;
     }
   
-    .copy-right {
+    .RIGHTS-Reserved {
       color: white;
     }
   
