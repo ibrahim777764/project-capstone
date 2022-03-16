@@ -27,22 +27,15 @@
 - Git
 - Visual Studio Code
 
-## Getting Started
-*Instructions on how to access my project locally.**
- To Access my project locally please follow the following instructions;
-1. Enter this url: https://kaylemba.github.io/First-capstone/ in your web browser.
-2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
-3. Select download Zip option from drop down menu.
-4. Once the download is complete you will be able to access my project locally.
-Here is my repository link: https://kaylemba.github.io/First-capstone/
+
 
 
 ## Author
-👤 Kalolo Chola Lemba
+👤 Muhammad Ibrahim Naseer
 
-- GitHub: [@KayLemba ](https://github.com/KayLemba)
-- Twitter: [@King-Kaylo1 ](https://twitter.com/King_Kaylo1) 
-- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba-41a8339a/-41a8339a/)
+- GitHub: [@ibrahim777764] (https://github.com/ibrahim777764)
+- Twitter: [@Ibrahim66650696 ](https://twitter.com/Ibrahim66650696) 
+- LinkedIn: [@ibrahim-naseer-215667225](hhttps://www.linkedin.com/in/ibrahim-naseer-215667225/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
