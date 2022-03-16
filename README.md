@@ -9,9 +9,9 @@
 **   PakWheels has been hosting auto shows in Karachi since 2015. Every year, we arrange this exciting event and call out all car lovers. An auto show, also known as a motor show or car show, is a public exhibition of current automobile models, debuts, concept cars, or out-of-production classics. It is attended by automotive industry representatives, dealers, auto journalists and car enthusiasts. Most auto shows occur once or twice a year** 
 # WORK FLOW SCREEN 
 ## DESKTOP VIEW
-![screenshot](.img/4ss.png)
+![screenshot](./img/1ss.png)
 ## MOBILE VIEW
-![screenshot](.img/1ss.png)
+![screenshot](./img/4ss.png)
 ## Video Presentation
 [Click Here to view presentation video](https://www.loom.com/share/e758342b0ac54e88a4a6179a7bd1a1c0)
 ## Live Demo
