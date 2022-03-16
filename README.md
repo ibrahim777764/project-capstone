@@ -15,7 +15,7 @@
 ## Video Presentation
 [Click Here to view presentation video](https://www.loom.com/share/7d2164812b454565bd1fe06c0e7b7df6)
 ## Live Demo
-[Click Here to view live version](https://kaylemba.github.io/First-capstone/)
+
 ## Built With
 ### Major languages
 - HTML
@@ -26,6 +26,10 @@
 - Github
 - Git
 - Visual Studio Code
+
+## Acknowledgments
+
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
 
 
 
@@ -42,9 +46,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-## Acknowledgments
-
-[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
 
 ## Show your support
 Give a ⭐️ if you like this project!
