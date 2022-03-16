@@ -186,7 +186,7 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  
+
   .heading {
     font-family: "cocogoose", sans-serif;
     font-size: 3rem;
@@ -310,6 +310,7 @@
     color: #ec5242;
     border-color: #ec5242;
   }
+  
   
   .desktop-container-link {
     display: none;
