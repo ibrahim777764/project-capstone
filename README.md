@@ -13,7 +13,7 @@
 ## MOBILE VIEW
 ![screenshot](./img/4ss.png)
 ## Video Presentation
-[Click Here to view presentation video](https://www.loom.com/share/e758342b0ac54e88a4a6179a7bd1a1c0)
+[Click Here to view presentation video](https://www.loom.com/share/7d2164812b454565bd1fe06c0e7b7df6)
 ## Live Demo
 [Click Here to view live version](https://kaylemba.github.io/First-capstone/)
 ## Built With
