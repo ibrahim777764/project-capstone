@@ -15,7 +15,8 @@
 ## Video Presentation
 [Click Here to view presentation video](https://www.loom.com/share/7d2164812b454565bd1fe06c0e7b7df6)
 ## Live Demo
-live view here https://ibrahim777764.github.io/project-capstone/
+ live view  here https://ibrahim777764.github.io/project-capstone/
+
 
 ## Built With
 ### Major languages
@@ -33,7 +34,15 @@ live view here https://ibrahim777764.github.io/project-capstone/
 [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
 
 
+## Getting Started
 
+To get a local copy up and running follow these simple example steps.
+
+- copy this link `https://github.com/ibrahim777764/project-capstone.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/ibrahim777764/project-capstone.git`.
+- go to the repository folder in your command prompt `cd project-capstone`
 
 ## Author
 👤 Muhammad Ibrahim Naseer
