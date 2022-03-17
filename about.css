@@ -70,12 +70,13 @@ p {
   display: none;
   height: 100vh;
   background-color: rgba(234, 234, 234, 0.9);
-  position: absolute;
+  position: fixed;
   z-index: 5;
   top: 0;
   left: 0;
   border-right: 4px outset #ec5242;
   border-bottom: 2px outset #ec5242;
+  
 }
 
 .open {
